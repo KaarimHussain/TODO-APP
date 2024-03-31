@@ -1,0 +1,52 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(40deg, var(--periwinkle), var(--mediumslateblue));
+}
+#main {
+  min-height: 100vh;
+}
+form {
+  background-color: var(--aliceblue);
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  width: 400px;
+}
+.inputs {
+  background-color: var(--periwinkle);
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  color: #333;
+  font-weight: 500;
+}
+#actionBtn {
+  background-color: var(--mediumslateblue);
+  color: var(--white);
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 1px solid var(--mediumslateblue);
+}
+#actionBtn:hover {
+  background-color: transparent;
+  border: 1px solid var(--mediumslateblue);
+  color: var(--mediumslateblue);
+}
+.forgotlink {
+  color: var(--mediumslateblue);
+}
+.forgotlink a {
+  color: black;
+  font-weight: 700;
+}
+.errorContainer {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  padding: 0 3vw;
+}

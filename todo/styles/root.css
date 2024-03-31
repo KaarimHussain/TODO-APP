@@ -1,0 +1,93 @@
+:root {
+  --white: #fff;
+  --mintcream: #effffa;
+  --aliceblue: #e5ecf4;
+  --periwinkle: #c3bef7;
+  --mediumslateblue: #8a4fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Wix Madefor Text", sans-serif;
+}
+
+.completed {
+  background-color: rgba(133, 255, 133, 0.498);
+  border: 2px solid rgb(0, 142, 0);
+  padding: 0 20px;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 142, 0);
+}
+
+.urgent {
+  border: 2px solid orangered;
+  background-color: rgba(255, 172, 142, 0.443);
+  color: orangered;
+  padding: 0 20px;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: rgba(65, 105, 225, 0.329);
+  color: royalblue;
+  border: 2px solid royalblue;
+  padding: 0 20px;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.onHold {
+  background-color: #ddd;
+  color: rgb(137, 137, 137);
+  border: 2px solid rgb(137, 137, 137);
+  padding: 0 20px;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.important {
+  background-color: rgba(224, 224, 0, 0.3);
+  border: 2px solid #ffd700;
+  color: #6e5e00;
+  padding: 0 20px;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work {
+  background-color: rgba(192, 192, 192, 0.3);
+  border: 2px solid #808080;
+  color: #808080;
+  padding: 0 20px;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorContainer {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  padding: 0 3vw;
+}
+
+.customBtn{
+  background-color: var(--mediumslateblue);
+  color: var(--white);
+}

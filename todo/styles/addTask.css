@@ -1,0 +1,52 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--periwinkle);
+}
+section {
+  min-height: 100vh;
+  width: 100%;
+}
+label {
+  font-weight: bolder;
+}
+#title {
+  outline: none;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+#description {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  resize: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#category {
+  border: none;
+  overflow: none;
+  padding: 10px 20px;
+}
+#category option {
+  border-radius: 10px;
+}
+.submitBtn {
+  background-color: var(--mediumslateblue);
+  color: var(--white);
+  padding: 10px 0;
+}
+.submitBtn:hover {
+  background-color: var(--white);
+  color: var(--mediumslateblue);
+}
+
+.goBackLink{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  position: relative;
+  top: 3rem;
+  left: 3rem;
+  font-size: 1.5rem;
+}

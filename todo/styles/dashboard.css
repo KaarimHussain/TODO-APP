@@ -1,0 +1,70 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+main {
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--periwinkle);
+  display: flex;
+}
+.sidebar {
+  height: 100vh;
+  max-width: 100px;
+  padding: 0.7rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  background-color: var(--mediumslateblue);
+}
+.recentTaskBox {
+  border-top: 3px solid var(--mediumslateblue);
+  background-color: var(--white);
+}
+.taskBoxHeading {
+  background-color: var(--white);
+  padding: 10px 20px;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.taskBoxMain {
+  background-color: var(--white);
+  padding: 10px 20px;
+}
+.taskBoxMain ul {
+  list-style: none;
+  width: 100%;
+}
+.gridBox {
+  border-top: 3px solid var(--mediumslateblue);
+  background-color: var(--white);
+  width: 100%;
+  padding: 20px 20px;
+  font-size: 1.2rem;
+  font-weight: light;
+  text-align: center;
+}
+.gridBox2 {
+  border-top: 3px solid #8a4fffca;
+  background: linear-gradient(45deg, #8a4fffca, rgba(10, 55, 192, 0.463));
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 20px 20px;
+  font-size: 1.2rem;
+  font-weight: light;
+  text-align: center;
+  color: var(--white);
+}
+.taskTitle{
+  display: inline-block;
+  width: 300px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  font-weight: bold;
+}

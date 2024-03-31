@@ -1,0 +1,24 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--periwinkle);
+}
+section {
+  min-height: 100vh;
+  width: 100%;
+  padding: 5rem 0;
+}
+.tableHead{
+    background-color: var(--mediumslateblue) !important;
+    color: white;
+}
+
+.goBackLink{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    position: relative;
+    top: 3rem;
+    left: 3rem;
+    font-size: 1.7rem;
+}
