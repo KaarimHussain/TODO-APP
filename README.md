@@ -9,11 +9,8 @@ This application allows users to manage their tasks and todos efficiently.
 
 ## Features
 
-- Add new tasks
-- Mark tasks as completed
-- Delete tasks
-- Edit tasks
-- View list of all tasks
-
-
-> here is the link of the live project 😄
+- Add new tasks ➕
+- Mark tasks as completed 👩‍💼
+- Delete tasks ❌
+- Edit tasks ⚙
+- View list of all tasks 📃
