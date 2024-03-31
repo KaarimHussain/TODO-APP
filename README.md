@@ -1,6 +1,7 @@
 # Todo Application
 
-This is a simple todo application hosted at [https://kaarimhussainbooksearch.000webhostapp.com/todo/](https://kaarimhussainbooksearch.000webhostapp.com/todo/).
+This is a simple todo application
+> hosted at [https://kaarimhussainbooksearch.000webhostapp.com/todo/](https://kaarimhussainbooksearch.000webhostapp.com/todo/).
 
 ## Description
 
